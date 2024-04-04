@@ -6,6 +6,8 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+
 :root {
   font-size: 62.5%;
   font-family: "Mulish", sans-serif;
@@ -13,6 +15,7 @@
 
 body {
   font-size: 1.6rem;
+  
 }
 
 .spage {
@@ -20,7 +23,7 @@ body {
   background-color: #312D64;
 }
 
-/* SECTION HERO */
+/* MAIN */
 
 #hero {
   display: flex;
@@ -40,8 +43,11 @@ body {
 .astronaut img{
   width: 37rem;
   height: 37rem;
-  margin-bottom: 3rem; 
+  margin-bottom: 3rem;
+  
 }
+
+
 
 h1 {
   color: #B52184;
@@ -53,7 +59,8 @@ h1 {
 
 p.texto1 {
   margin-top: 1rem;
-  font-size: clamp(1rem, 1.3rem + 1vw, 2rem); 
+  font-size: clamp(1rem, 1.3rem + 1vw, 2rem);
+  
 }
 
 
@@ -72,6 +79,7 @@ spam {
   width: 5rem;
   height: 8rem;
   margin-top: 2rem;
+
 }
 
 
@@ -82,15 +90,17 @@ spam {
   align-items: center;
   display: flex;
   flex-direction: column;
+
 }
 
 .element{
   height: 57rem;
-  width: 26rem;
+  width: 27rem;
   background-color: rgb(255, 255, 255);
   border-radius: 25px;
   padding: 2.6rem;
-  margin: 2rem auto;
+  margin: 2rem;
+
 }
 
 
@@ -101,6 +111,7 @@ spam {
   font-size: 1.6rem;
   margin: 0;
   text-align: justify;
+
 }
 
 .element img {
@@ -140,6 +151,7 @@ form h1{
   align-items: center;
   margin: 0 0 3rem .5rem;
   font-size: 3.2rem;
+
 }
 
 input {
@@ -150,6 +162,7 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 section #contact {
@@ -190,6 +203,7 @@ fieldset{
   border-radius: 16px;
   padding: 2rem;
   margin-bottom: 2rem;
+
 }
 
 .button {
@@ -219,11 +233,13 @@ font-size: clamp(1rem, 1.3rem + 1vw, 1.6rem);
 background-color: #312D64;
 justify-content: center;
 align-items: center;
+
 }
 
 .stars img {
   display: none;
 }
+
 
 @media (min-width: 1366px) {
 
