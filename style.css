@@ -1,0 +1,334 @@
+*  {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+:root {
+  font-size: 62.5%;
+  font-family: "Mulish", sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+  
+}
+
+.spage {
+  font-size: 1.6rem;
+  background-color: #312D64;
+}
+
+/* MAIN */
+
+#hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.astronaut img{
+  width: 37rem;
+  height: 37rem;
+  margin-bottom: 3rem;
+  
+}
+
+
+
+h1 {
+  color: #B52184;
+  font-size: clamp(1.5rem, 2.5rem + 1vw, 3.2rem);
+  font-weight: 900;
+  -webkit-text-stroke: black;
+  -webkit-text-stroke-width: 1.5px;
+}
+
+p.texto1 {
+  margin-top: 1rem;
+  font-size: clamp(1rem, 1.3rem + 1vw, 2rem);
+  
+}
+
+
+spam {
+  color:#B52184;
+  font-weight: 800;
+  margin: 5rem 0 0 2rem;
+  display: flex;
+  align-items: center;
+  font-family: "Mulish", sans-serif;
+  font-size: clamp(1rem, 1.3rem + 1vw, 2rem);
+  text-align: center;
+}
+
+.arrow {
+  width: 5rem;
+  height: 8rem;
+  margin-top: 2rem;
+
+}
+
+
+/* segunda parte do código */
+
+#elements {
+  background-color: #312D64;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.element{
+  height: 57rem;
+  width: 26rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 25px;
+  padding: 2.6rem;
+  margin: 2rem auto;
+  
+
+}
+
+
+.element p{
+  height:20rem;
+  width: 22rem;
+  line-height: 2.5rem;
+  font-size: 1.6rem;
+  margin: 0;
+  text-align: justify;
+
+}
+
+.element img {
+  width: 8rem;
+  height: 8rem;
+  margin-bottom: 1rem;
+}
+
+.element h1{
+  width:25rem;
+  height: 2rem;
+  margin-bottom: 2rem;
+}
+
+
+/* CONTATO */
+
+#contact {
+  min-width: 100%;;
+  height: 56rem;
+  background-color: white;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+form {
+align-items: center;
+display: flex;
+flex-direction: column;
+}
+
+form h1{
+  display: flex;
+  align-items: center;
+  margin: 0 0 3rem .5rem;
+  font-size: 3.2rem;
+
+}
+
+input {
+  width: 28rem;
+  height: 4.8rem;
+  margin-bottom: 1rem;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+section #contact {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset{
+  border: none;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-wrapper #name {
+  background-image: url(./assets/Vector.png);
+  background-repeat:no-repeat;
+  background-position: 3%;
+  padding: 1.5rem;
+  padding-left: 4rem;
+  margin-bottom: 2rem;
+}
+
+.input-wrapper #email {
+  background-image: url(./assets/person.png );
+  background-repeat:no-repeat;
+  background-position: 3%;
+  padding: 1.5rem;
+  padding-left: 4rem;
+  margin-bottom: 2rem;
+}
+
+.input-wrapper textarea {
+  width: 28rem;
+  height: 20rem;
+  resize: none;
+  border-radius: 16px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+
+}
+
+.button {
+  height: 4.5rem;
+  width: 15rem;
+  border-radius: 16px;
+
+  margin-bottom: 1rem;
+  background-color: rgb(61, 59, 138);
+  color: #FFF;
+  border: none;
+  font-size: 14px;
+  padding: 1.5rem;
+}
+
+button:hover{
+background-color: #312D64;
+}
+
+footer {
+
+display: flex;
+
+padding: 1.5rem;
+color:#FFF;
+font-size: clamp(1rem, 1.3rem + 1vw, 1.6rem);
+background-color: #312D64;
+justify-content: center;
+align-items: center;
+
+}
+
+.stars img {
+  display: none;
+}
+
+
+@media (min-width: 1366px) {
+
+  body {
+    overflow-x: hidden;
+   } 
+
+   #hero {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 10rem;
+
+   }
+   
+    .hero2 {
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      margin-top: 31.2rem;
+
+    }
+
+
+   .hero2 h1 {
+    font-size: 6rem;
+    width: 58rem;
+   }
+
+
+   .astronaut img {
+    height: 73rem ;
+    width: 72rem;
+    margin-right: 4rem;
+   }
+
+   spam {
+    margin-top: 15rem;
+   }
+
+   .arrow {
+    margin-top: 2rem;
+   }
+
+   /* SEGUNDA PARTE */
+   
+  #elements{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .element {
+    margin: 5rem 4rem;
+  }
+ 
+  #contact {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    margin-left: 20rem;
+  }
+  
+  .stars img {
+
+    height: 56rem;
+    width: 45.5rem;
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 60rem;
+  }
+
+  .input-wrapper #name {
+    width: 60rem;
+  }
+
+  .input-wrapper #email{
+    width: 60rem;
+  }
+  
+  .input-wrapper textarea {
+    width: 60rem;
+    height: 12rem;
+  }
+
+  form h1 {
+  font-size: 4.2rem ;
+  }
+
+}
